@@ -2,9 +2,37 @@ package balao;
 
 public class Main {
     public static void main(String[]args){
-        //construir baloes
+        //criar objetos do passeio
+        Pessoa p1 = new Pessoa();
+        Pessoa p2; //DECLARAÇÃO DO OBJETO
+        p2 = new Pessoa();
+        //...
+        p1.nome = "Elliot Page";
+        p1.cpf = "12345678990";
+        p1.rg = "1122222154465";
+        p1.telefone = 988888888;
+        p1.numeroParaEmergencia = 977777777;
+        p1.endereço = "rua juliana paiva, número 44";
+        p1.termoCienciaRisco = true;
+
+        p2.nome = "Lana del Rey";
+        p2.cpf = "12345678997";
+        p2.rg = "11222221544665";
+        p2.telefone = 988855888;
+        p2.numeroParaEmergencia = 977227777;
+        p2.endereço = "rua juliana paiva, número 44";
+        p2.termoCienciaRisco = true;
+
+        Piloto pl1 = new Piloto();
+        pl1.nome = "Calleri";
+        pl1.cpf = "15555555555";
+        pl1.NumeroRegistro = "8645555";
+
         Balao b1 = new Balao();
-        String resultado = b1.voar();
-        System.out.println(resultado);
+        b1.NumeroIdentificacao = "861445";
+        b1.RegistroRegularidade = "regular";
+
+
+
     }
 }
