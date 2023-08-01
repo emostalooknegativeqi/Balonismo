@@ -7,7 +7,7 @@ public class Main {
         Pessoa p2; //DECLARAÇÃO DO OBJETO
         p2 = new Pessoa();
         //...
-        p1.nome = "Elliot Page";
+        p1.nome = "monark";
         p1.cpf = "12345678990";
         p1.rg = "1122222154465";
         p1.telefone = 988888888;
@@ -15,7 +15,7 @@ public class Main {
         p1.endereço = "rua juliana paiva, número 44";
         p1.termoCienciaRisco = true;
 
-        p2.nome = "Lana del Rey";
+        p2.nome = "igor3k";
         p2.cpf = "12345678997";
         p2.rg = "11222221544665";
         p2.telefone = 988855888;
@@ -24,7 +24,7 @@ public class Main {
         p2.termoCienciaRisco = true;
 
         Piloto pl1 = new Piloto();
-        pl1.nome = "Calleri";
+        pl1.nome = "davy jones";
         pl1.cpf = "15555555555";
         pl1.NumeroRegistro = "8645555";
 
