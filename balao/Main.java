@@ -1,5 +1,5 @@
 package balao;
-
+import balao.Balao;
 import java.util.Scanner;
 
 public class Main {
